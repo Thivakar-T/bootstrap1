@@ -126,3 +126,6 @@
       -webkit-align-items: center;
       align-items: center;
   }
+  .ac{
+      border-bottom: 1px solid black;
+  }
