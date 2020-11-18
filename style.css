@@ -1,15 +1,73 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    
+  }
+  .col-md-5{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-5 img{
+    width:100%;
+    
+  }
+  .the{
+      max-width: 70%;
+  }
+  .col-md-6{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-6 img{
+    width:100%;
+    
+  }
+  .col-md-2{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-2 img{
+    width:100%;
+    
+  }
+  .col-md-4{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-4 img{
+    width:100%;
+    
+  }
+  body .carousel-indicators li{
+    background-color:lightgray;
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:lightgray;
+  }
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bg-dark{
+      background-color: black !important;
+  }
 .navbar-toggle{
     display: none;
 }
 .h1{
     font-size: 48px !important;
-}
-.p{
-    max-width: ;
 }
 .bg-dark{
     background-color: black;
@@ -45,6 +103,9 @@
 .ac:hover{
     text-decoration: none;
 }
+li{
+    list-style-type: none;
+}
 @keyframes bounce { 
     from { 
         transform: translate3d(0, 0, 0); 
@@ -76,6 +137,9 @@
     .dd1{
         margin-left: 0px !important;
         margin-top:5% !important;
+    }
+    body{
+        background-color: white !important;
     }
 
 }
