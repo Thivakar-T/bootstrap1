@@ -2,9 +2,33 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-body{
+    word-break: break-word;
     background-color: black;
+}
+.gts{
+    background-color: rgb(32, 32, 32) !important;
+}
+.jj{
+    border: 1px solid rgb(233, 230, 230);
+}
+.hhh{
+    background-color: lightgrey;
+}
+.hh3{
+    background-color: unset;
+}
+.da{
+    background-color: black;
+    border: none;
+}
+.card{
+    border:none !important;
+}
+.card-header{
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-bottom: 0px;
+    width: 100%;
 }
 .col-md-3{
     display: inline-block;
