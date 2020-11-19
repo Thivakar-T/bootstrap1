@@ -9,17 +9,17 @@
     background-color: rgb(32, 32, 32) !important;
 }
 .jj{
-    border: 1px solid rgb(233, 230, 230);
+    border: 1px solid rgb(233, 230, 230) !important;
 }
 .hhh{
-    background-color: lightgrey;
+    background-color: lightgrey !important;
 }
 .hh3{
-    background-color: unset;
+    background-color: unset !important;
 }
 .da{
-    background-color: black;
-    border: none;
+    background-color: black !important;
+    border: none !important;
 }
 .card{
     border:none !important;
@@ -27,8 +27,8 @@
 .card-header{
     padding: 0px !important;
     margin: 0px !important;
-    margin-bottom: 0px;
-    width: 100%;
+    margin-bottom: 0px !important;
+    width: 100% !important;
 }
 .col-md-3{
     display: inline-block;
@@ -146,14 +146,22 @@ li{
     margin-left: -200px !important;
     margin-top: 330px;
 }
+
 @media(max-width:1024px){
+    .card{
+        border:none !important;
+    }
+    .card-header{
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-bottom: 0px !important;
+        width: 100% !important;
+    }
     .qq{
         margin-left: 60px !important;
 
     }
-    .tt{
-        padding-left: 50px !important;
-    }
+   
     .dd{
         display: block;
         flex-direction: column;
@@ -165,9 +173,18 @@ li{
     body{
         background-color: white !important;
     }
-
+   
 }
 @media(max-width:768px){
+    .card{
+        border:none !important;
+    }
+    .card-header{
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-bottom: 0px !important;
+        width: 100% !important;
+    }
     .navbar-toggler{
         display: inline;
     }
@@ -207,6 +224,15 @@ li{
 } */
 
 @media(max-width:575px){
+    .card{
+        border:none !important;
+    }
+    .card-header{
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-bottom: 0px !important;
+        width: 100% !important;
+    }
     .dd{
         display: block;
         flex-direction: column;
